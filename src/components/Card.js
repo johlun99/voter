@@ -1,8 +1,10 @@
 function Card() {
+    const id = "test";
+
     return(
-        <>
-        <h1>Hello world</h1>
-        </>
+        <div className="card">
+            <button className="card-button">test</button>
+        </div>
     )
 }
 
