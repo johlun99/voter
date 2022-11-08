@@ -6,7 +6,7 @@ import logo from './logo.svg';
 function App() {
   return (
     <div className="App">
-      <Card />
+      <Card numberOfCards={ 4 } />
     </div>
   );
 }

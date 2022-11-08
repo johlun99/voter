@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-function Card() {
+function Card(props) {
+    const numberOfCards = props.numberOfCards;
+
     const GridContainer = styled.div`
         width: 90vw;
         text-align: center;
@@ -14,8 +16,6 @@ function Card() {
         border-radius: 10px;
         font-size: 15pt;
     `;
-
-    const id = "test";
 
     return(
         <GridContainer>
