@@ -13,7 +13,7 @@ const navigation = {
     ]
   }
 
-test('renders Navbar', () => {
+test('renders Navbar with brand and a link', () => {
     const { brand, links } = navigation;
 
     render(<NavbarScroller brand={brand} links={links} />);
